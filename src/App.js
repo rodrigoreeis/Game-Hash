@@ -1,11 +1,10 @@
 import React from 'react';
+import Sobre from './objects/Sobre';
 
 function App() {
-  return (
-   <div>
-     eae
-   </div>
-  );
+    return (
+        <Sobre />
+    );
 }
 
 export default App;
