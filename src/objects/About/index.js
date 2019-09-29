@@ -6,12 +6,10 @@ import Name from '../Name';
 import Description from '../Description';
 
 
-const About = ({ img, name, description }) => {
+const About = ({ img, name, description, children }) => {
   return ( 
     <article className="about">
-      <Profile img={img}/>
-      <Name name={name} />
-      <Description description={description} />
+      {children}
     </article>
   );
 }
