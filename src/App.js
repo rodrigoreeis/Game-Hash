@@ -6,8 +6,8 @@ import About from './objects/About';
 import Header from './components/Header';
 import Hashtag from './components/Hashtag';
 
-import RodrigoPhoto from './img/rodrigo.jpeg';
 import AboutLink from './objects/AboutLink';
+import IconClose from './objects/IconClose';
 
 const  App = () => (
   <main className="app">
@@ -16,6 +16,7 @@ const  App = () => (
     <CheckBox id="show" value="show" content="Mostrar Eventos"/>
     <About >
       <AboutLink className="-light" />
+      <IconClose />
     </About>
   </main>
 );
