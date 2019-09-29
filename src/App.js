@@ -7,8 +7,17 @@ function App() {
   return (
     <>
       <Header />
-      <Card />
-      <Player player='x'/>
+      <Card> 
+        <Player player='x'/>
+        <Player player='o'/>
+        <Player player='x'/>
+        <Player player='o'/>
+        <Player player='x'/>
+        <Player player='o'/>
+        <Player player='x'/>
+        <Player player='o'/>
+        <Player player='x'/>
+      </Card>
     </>
   );
 }
