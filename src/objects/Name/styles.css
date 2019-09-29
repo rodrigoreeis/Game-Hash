@@ -1,0 +1,6 @@
+.name{
+  font-size: var(--size-medium);
+  color: var(--color-zero);
+  width: 290px;
+  font-weight: bold;
+}

@@ -44,10 +44,11 @@
 }
 
 .hashtag > .item:nth-child(5){
-  border-left: 4px solid var(--color-third);
-  border-right: 4px solid var(--color-third);
-  border-top: 5px solid var(--color-third);
-  border-bottom: 5px solid var(--color-third);
+  border: solid var(--color-third);
+  border-left-width: 4px;
+  border-right-width: 4px;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
 }
 
 .hashtag > .item:nth-child(4),
