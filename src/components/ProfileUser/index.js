@@ -20,11 +20,10 @@ const ProfileUser = () => {
       <dt className="title"> Rodrigo Reis </dt>
       <dd className="description"> Desenvolvedor Front-end com sólida experiência em e-commerce. Fascinado por VanillaJS. Expert em acessibilidade e entusiasta UX/UI.</dd>
       <dd className="socials">
-        <IconSocial src={Github} alt= "logo do Github" />
-        <IconSocial src={Facebook} alt= "logo do Facebook" />
-        <IconSocial src={Linkedin} alt= "logo do Likedin" />
-        <IconSocial src={Twitter} alt= "logo do Twitter" />
-        <IconSocial src={Instagram} alt= "logo do Instagram" />
+        <IconSocial action="https://github.com/rodrigoreeis" src={Github} alt= "logo do Github" />
+        <IconSocial action="https://www.linkedin.com/in/rodrigoreiss/" src={Linkedin} alt= "logo do Likedin" />
+        <IconSocial action="https://twitter.com/_rodrigore" src={Twitter} alt= "logo do Twitter" />
+        <IconSocial action="https://www.instagram.com/_rodrigore/?hl=pt-br" src={Instagram} alt= "logo do Instagram" />
       </dd>
     </dl>
   );

@@ -1,9 +1,11 @@
 import React from 'react';
 import './styles.css';
 
-const IconSocial = ({ src, alt }) => {
+const IconSocial = ({ src, alt, action }) => {
   return ( 
-    <img className="icon-social" src={src} alt={alt} />
+    <a target="_blank" href={action} >
+      <img className="icon-social" src={src} alt={alt} />
+    </a>
   );
 }
  
