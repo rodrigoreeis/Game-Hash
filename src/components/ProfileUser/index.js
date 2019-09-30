@@ -2,7 +2,6 @@ import React from 'react';
 import './styles.css';
 
 import Github from '../../img/github-icon.png';
-import Facebook from '../../img/facebook-icon.png';
 import Linkedin from '../../img/linkedin-icon.png';
 import Twitter from '../../img/twitter-icon.png';
 import Instagram from '../../img/instagram-icon.png';

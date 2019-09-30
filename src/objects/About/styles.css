@@ -5,6 +5,13 @@
   position: absolute;
   left: 0;
   top: 0;
+  transform: translateX(100%);
+  will-change: trasnform;
+  transition: transform 200ms linear;  
+}
+
+.about.-active{
+  transform: translateX(0)
 }
 
 .about > .header-internal {
