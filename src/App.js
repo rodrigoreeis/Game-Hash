@@ -7,6 +7,7 @@ import About from './objects/About';
 import Header from './components/Header';
 import Hashtag from './components/Hashtag';
 import HeaderInternal from './components/HeaderInternal';
+import ProfileUser from './components/ProfileUser';
 
 
 const  App = () => (
@@ -16,6 +17,7 @@ const  App = () => (
     <CheckBox id="show" value="show" content="Mostrar Eventos"/>
     <About >
       <HeaderInternal />
+      <ProfileUser />
     </About>
   </main>
 );
