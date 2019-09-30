@@ -6,3 +6,7 @@
   left: 0;
   top: 0;
 }
+
+.about > .header-internal {
+  margin-bottom: var(--spacing-very-big);
+}
