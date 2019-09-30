@@ -4,11 +4,11 @@ import AboutLink from '../../objects/AboutLink'
 import Menu from '../../objects/Menu'
 import './styles.css';
 
-const Header = () => (
+const Header = ({ onClick }) => (
   <header className="header">
     <LogoMine />
-    <AboutLink />
-    <Menu />
+    <AboutLink onClick={onClick} />
+    <Menu onClick={onClick} />
   </header>
 )
 

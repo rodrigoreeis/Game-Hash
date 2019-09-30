@@ -1,9 +1,9 @@
 import React from 'react';
 import './styles.css';
 
-const About = ({ img, name, description, children }) => {
+const About = ({ children, className = '' }) => {
   return ( 
-    <article className="about">
+    <article className={`about ${className}`}>
       {children}
     </article>
   );
