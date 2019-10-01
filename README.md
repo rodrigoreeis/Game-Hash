@@ -4,9 +4,6 @@
   <a href="MIT" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/_rodrigore" target="_blank">
-    <img alt="Twitter: _rodrigore" src="https://img.shields.io/twitter/follow/_rodrigore.svg?style=social" />
-  </a>
     <img alt="Nodejs v10.16.3" src="https://img.shields.io/badge/node-10.16.3-green" />
     <img alt="NPM v6.11.3" src="https://img.shields.io/badge/npm-6.11.3-brightgreen" />
     <img alt="Yarn 1.19.0" src="https://img.shields.io/badge/yarn-1.19.0-blue" />
