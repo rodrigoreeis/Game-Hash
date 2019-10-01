@@ -1,4 +1,4 @@
-.about{
+.about-user{
   width: 100vw;
   height: 100vh;
   background-color: var(--color-negative);
@@ -10,10 +10,10 @@
   transition: transform 200ms linear;  
 }
 
-.about.-active{
+.about-user.-active{
   transform: translateX(0)
 }
 
-.about > .header-internal {
+.about-user > .header-internal {
   margin-bottom: var(--spacing-very-big);
 }

@@ -1,10 +1,10 @@
-.menu {
+.menu-hamburger {
   display: block;
   text-indent: -999999px;
 }
-.menu::before,
-.menu::after, 
-.menu > .center{
+.menu-hamburger::before,
+.menu-hamburger::after, 
+.menu-hamburger > .center{
   content: "";
   display: block;
   height: 4px;
@@ -13,7 +13,7 @@
   background-color: var(--color-fourth);
 }
 
-.menu::before, 
-.menu > .center {
+.menu-hamburger::before, 
+.menu-hamburger > .center {
   margin-bottom: 5px;
 }

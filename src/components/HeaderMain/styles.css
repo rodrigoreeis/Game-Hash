@@ -1,4 +1,4 @@
-.header{
+.header-main{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -6,11 +6,11 @@
   padding-bottom: 20px;
 }
 
-.header > .about-link {
+.header-main > .about-link {
   margin-left: auto;
   margin-right: 10px;
 }
 
-.header > .menu {
+.header-main > .menu-hamburger {
   width: 25px;
 }

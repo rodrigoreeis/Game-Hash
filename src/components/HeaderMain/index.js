@@ -1,14 +1,14 @@
 import React from 'react';
 import LogoMine from '../../objects/LogoMine'
 import AboutLink from '../../objects/AboutLink'
-import Menu from '../../objects/Menu'
+import MenuHamburger from '../../objects/MenuHamburger'
 import './styles.css';
 
 const Header = ({ onClick }) => (
-  <header className="header">
+  <header className="header-main">
     <LogoMine />
     <AboutLink onClick={onClick} />
-    <Menu onClick={onClick} />
+    <MenuHamburger onClick={onClick} />
   </header>
 )
 
