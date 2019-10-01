@@ -32,12 +32,12 @@ npm start or yarn start
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️ if you liked!
 
 ## 📝 License
 
 Copyright © 2019 [Rodrigo Reis](https://github.com/rodrigoreeis).<br />
-This project is [MIT](MIT) licensed.
+This project is [MIT](https://github.com/rodrigoreeis/React-Hash/blob/feature/game-hash/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
